@@ -1,7 +1,7 @@
 let sketch = function (p) {
     let cells = [];
-    const canvasWidth = 600;
-    const canvasHeight = 400;
+    const canvasWidth = window.innerWidth;
+    const canvasHeight = window.innerHeight;
     const widthNum = 40;
     const heightNum = 30;
     const cellWidth = canvasWidth / widthNum;
